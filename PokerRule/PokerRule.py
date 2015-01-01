@@ -9,7 +9,7 @@ import numpy as np
 
 
 def main():
-    #create the training & test sets, skipping the header row with [1:]
+    # create the training & test sets, skipping the header row with [1:]
     dataset = genfromtxt(open('Data/train.csv', 'r'),
                          delimiter=',',
                          dtype='f8')[1:]
